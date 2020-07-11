@@ -1,0 +1,6 @@
+# Routes
+
+GET     /buscas                    controllers.HomeController.buscas()
+GET     /buscar/:id                controllers.HomeController.buscar(id:Int)
+POST    /salvar                    controllers.HomeController.salvar()
+
